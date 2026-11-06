@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="8oz Coffee — freshly brewed coffee in DC Colony, Neelam Commercial, adjacent to Pizza Montana.">
+  <title>8oz Coffee | Fresh Coffee in DC Colony</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="8oz Coffee home">
+        <span class="brand-mark" aria-hidden="true">8</span>
+        <span>oz <em>Coffee</em></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#visit">Visit Us</a>
+        <a class="nav-cta" href="tel:+923211340059">Call Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Small batch. Big flavor.</p>
+          <h1 id="heroTitle" class="reveal">Coffee worth <span>slowing down</span> for.</h1>
+          <p class="hero-text reveal">
+            8oz Coffee serves bold espresso, smooth brews, and cozy moments in DC Colony —
+            right beside Pizza Montana in Neelam Commercial.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#menu">Explore the menu</a>
+            <a class="button button-secondary" href="tel:+923211340059">0321 1340059</a>
+          </div>
+          <div class="hero-meta reveal">
+            <div><strong>DC Colony</strong><span>Neelam Commercial</span></div>
+            <div><strong>Adjacent</strong><span>Pizza Montana</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="cup-scene" id="cupScene">
+            <canvas class="coffee-canvas" id="heroCoffeeCanvas" aria-hidden="true"></canvas>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="bean bean-one">✦</div>
+            <div class="bean bean-two">✦</div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to story">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Freshly brewed</span><b>•</b><span>Quality beans</span><b>•</b><span>Neighborhood favorite</span><b>•</b><span>DC Colony</span><b>•</b>
+        <span>Freshly brewed</span><b>•</b><span>Quality beans</span><b>•</b><span>Neighborhood favorite</span><b>•</b><span>DC Colony</span><b>•</b>
+      </div>
+    </div>
+
+    <section class="section story" id="story">
+      <div class="container story-grid">
+        <div class="story-copy">
+          <p class="eyebrow reveal">Our story</p>
+          <h2 class="reveal">A cozy cup close to home.</h2>
+          <p class="reveal">
+            8oz Coffee is built for everyday rituals — quick espresso before work, a slow latte
+            with friends, or a warm pause between errands. Located in Neelam Commercial,
+            DC Colony, we’re easy to find and easy to love.
+          </p>
+          <ul class="story-points reveal">
+            <li><span>01</span> Friendly neighborhood service</li>
+            <li><span>02</span> Fresh coffee crafted with care</li>
+            <li><span>03</span> Convenient pickup location</li>
+          </ul>
+        </div>
+
+        <div class="story-cards">
+          <article class="story-card reveal">
+            <span class="card-icon">☕</span>
+            <h3>Morning boost</h3>
+            <p>Start the day with a clean, energizing cup.</p>
+          </article>
+          <article class="story-card reveal">
+            <span class="card-icon">✦</span>
+            <h3>Afternoon pause</h3>
+            <p>Slow down with smooth milk drinks and rich flavor.</p>
+          </article>
+          <article class="story-card reveal">
+            <span class="card-icon">♥</span>
+            <h3>Local favorite</h3>
+            <p>A familiar spot beside Pizza Montana in DC Colony.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow reveal">Menu highlights</p>
+          <h2 class="reveal">Made for every craving.</h2>
+          <p class="reveal">Simple, satisfying coffee drinks served with a personal touch.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-card-top"><span>01</span><span class="menu-tag">Classic</span></div>
+            <h3>Espresso</h3>
+            <p>Short, strong, and perfectly balanced.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-top"><span>02</span><span class="menu-tag">Popular</span></div>
+            <h3>Cappuccino</h3>
+            <p>Velvety foam over a rich espresso base.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-top"><span>03</span><span class="menu-tag">Smooth</span></div>
+            <h3>Latte</h3>
+            <p>Creamy milk and espresso in a comforting blend.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-top"><span>04</span><span class="menu-tag">Bold</span></div>
+            <h3>Americano</h3>
+            <p>Clean coffee flavor with a smooth finish.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+          <article class="menu-card featured reveal">
+            <div class="menu-card-top"><span>05</span><span class="menu-tag">Signature</span></div>
+            <h3>8oz Special</h3>
+            <p>A house favorite crafted for flavor and comfort.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-top"><span>06</span><span class="menu-tag">Cold</span></div>
+            <h3>Iced Coffee</h3>
+            <p>Refreshing and chilled for warmer days.</p>
+            <a href="tel:+923211340059">Order ahead</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container experience-grid">
+        <div class="experience-copy">
+          <p class="eyebrow reveal">The experience</p>
+          <h2 class="reveal">Good coffee shouldn’t feel complicated.</h2>
+          <p class="reveal">
+            Whether you’re grabbing a quick cup or staying a little longer, 8oz Coffee keeps
+            things simple: friendly service, familiar faces, and drinks made to order.
+          </p>
+          <div class="experience-list reveal">
+            <div><strong>Quick service</strong><span>Great for busy mornings</span></div>
+            <div><strong>Comfortable space</strong><span>Relaxed neighborhood atmosphere</span></div>
+            <div><strong>Easy access</strong><span>Next to Pizza Montana</span></div>
+          </div>
+        </div>
+
+        <div class="experience-visual reveal" aria-hidden="true">
+          <div class="experience-saucer"></div>
+          <canvas class="experience-coffee-canvas" id="experienceCoffeeCanvas" aria-hidden="true"></canvas>
+          <div class="experience-beans">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow reveal">Visit us</p>
+          <h2 class="reveal">Find us in DC Colony.</h2>
+          <p class="reveal">
+            We’re located at DC Colony, Neelam Commercial, adjacent to Pizza Montana —
+            easy to spot and convenient to reach.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card reveal">
+            <span class="contact-icon">⌖</span>
+            <h3>Location</h3>
+            <p>DC Colony, Neelam Commercial<br>Adjacent to Pizza Montana</p>
+          </article>
+          <article class="contact-card reveal">
+            <span class="contact-icon">☎</span>
+            <h3>Phone</h3>
+            <p>
+              <a href="tel:+923211340059">0321 1340059</a><br>
+              <a href="tel:+923086850694">0308 6850694</a>
+            </p>
+          </article>
+          <article class="contact-card reveal">
+            <span class="contact-icon">✉</span>
+            <h3>Get in touch</h3>
+            <p>Call ahead for your order<br>or to ask about today’s specials.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">8</span>
+        <span>oz <em>Coffee</em></span>
+      </a>
+      <p>Fresh coffee, friendly service, and a familiar neighborhood spot.</p>
+      <div class="footer-links">
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> 8oz Coffee. All rights reserved.</p>
+  </footer>
+
+  <script src="js/vendor/three.min.js"></script>
+  <script src="js/vendor/GLTFLoader.js"></script>
+  <script src="js/coffee3d.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
